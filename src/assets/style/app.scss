@@ -31,7 +31,9 @@ body {
 	text-transform: uppercase;
 	color: #c74c4c !important;
 	&:hover {
-		text-decoration: none;
+		// font-weight: bold;
+		// color: #FFF;
+		// text-decoration: none;
 	}
 }
 .container-fluid {
@@ -47,6 +49,7 @@ body {
 	background: #fff;
 }
 .ba-slider {
+
 	position: relative;
 	box-shadow: 0px 0px 15px 0px #ccc,
 	0px 70px 110px -80px #777;
@@ -85,6 +88,8 @@ body {
 		color: #E64B4B;
 	}
 	&__content-desc {
+		color: #999;
+		line-height: 1.6em;
 		position: absolute;
 		bottom: 0;
 		padding-bottom: 20px;
